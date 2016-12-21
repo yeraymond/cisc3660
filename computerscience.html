@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        img {
+            width: auto;
+            height: auto;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+
+    <div data-role="page" id="pageone">
+
+        <div data-role="main" class="ui-content">
+            <a href="#Home">
+                <img src="matrix-356024_1920.jpg" alt="Computer Science">
+            </a>
+        </div>
+    </div>
+
+    <div data-role="page" id="Home">
+        <div data-role="header">
+            <h1>Home</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+
+            <p>Categories:</p>
+            <a href="#Data Structures and Algorithms" class="ui-btn ui-corner-all">Data Structures and Algorithms</a>
+            <a href="#Graphs and Trees" class="ui-btn ui-corner-all">Graphs and Trees</a>
+            <a href="#Recursion and Other Uses of Trees" class="ui-btn ui-corner-all">Recursion and Other Uses of Trees</a>
+            <br>
+            <a href="#Quiz" class="ui-btn ui-corner-all">Quiz</a>
+
+        </div>
+        <div data-role="footer">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#About" data-icon="info">About</a></li>
+                </ul>
+            </div>
+            <h1>&copy; Raymond Ye 2016</h1>
+        </div>
+    </div>
+
+    <div data-role="page" id="Data Structures and Algorithms">
+        <div data-role="header">
+            <h1>Data Structures and Algorithms</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <div data-role="collapsible">
+                <h1>What is Sorting?</h1>
+                <p>Sorting algorithms simply reorder elements(integers, numbers, strings, etc) of an array (a list) in a certain order(increasing, decreasing, lexicographical, etc). There are many different sorting algorithms, and each has its own advantages and limitations. </p>
+                <img src="sorting.gif" alt="This will display an animated GIF" />
+            </div>
+            <div data-role="collapsible">
+                <h1>What is a linked list?</h1>
+                <p>A linked list is a data structure consisting of a group of certices which together represent a sequence. Under the simplest form, each vertex is composed of data and areference (in other words, a link) to the next vertex in the sequence.</p>
+                <img src="linkedlist.gif" alt="This will display an animated GIF" />
+            </div>
+			<div data-role="collapsible">
+                <h1>What is a hash table?</h1>
+                <p>A hash table is a data structure to map keys to values. It uses a hash function to ma keys into a small range of indices(typically [0..hash_table_size-1].</p>
+                <img src="hashtable.gif" alt="This will display an animated GIF" />
+            </div>
+            <br>
+
+            <div data-role="footer">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#Home" data-icon="home">Home</a></li>
+                    </ul>
+                </div>
+                <h1>&copy; Raymond Ye 2016</h1>
+            </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="Graphs and Trees">
+        <div data-role="header">
+            <h1>Graphs and Trees</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <div data-role="collapsible">
+                <h1>What is a Binary Search Tree?</h1>
+                <p>A Binary Search Tree(BST) is a binary tree in which each vertex has only up to 2 children that satisfy BST property. All vertices in the left subtree of a vertext must hold a value smaller than its own and all vertices in the right subtree of a vertext must hold a value larger than its own.</p>
+                <img src="bst.gif" alt="This will display an animated GIF" />
+            </div>
+			<div data-role="collapsible">
+                <h1>What is a Binary Heap?</h1>
+                <p>A Binary Heap is a complete binary tree that maintains the Max Heap property. Binary Heap is one possible data structure to model an efficient Priority Queue.</p>
+                <img src="heap.gif" alt="This will display an animated GIF" />
+            </div>
+            <div data-role="collapsible">
+                <h1>Why is a Graph Structure?</h1>
+                <p>A graph is made up of 'vertices' (or 'nodes') and 'edges' (or 'lines') that connect those vertices. A gaph may be undirected (or bidirectional), meaning that there is no distinction between the two vertices associated with each edge, or its edges may directed from one vertex to another but no neccessarily in the other direction. A graph can be weighted by assigning a weight to each edge, which represent numerical values associated with that connection, or a graph can be unweighted (either all edges have unit weight 1 or all edges have the same constant weight).</p>
+                <img src="graphs.gif" alt="This will display an animated GIF" />
+            </div>
+			<div data-role="collapsible">
+                <h1>What is Graph Traversal?</h1>
+                <p>Given a graph, we can use DFS(Depth-First-Search) or BFS(Breath-First-Search) to traverse the graph and explore the features/properties of the graph. Each graph traversal algorithm has its own characteristics.</p>
+                <img src="graphtraversal.gif" alt="This will display an animated GIF" />
+            </div>
+            <br>
+
+        </div>
+        <div data-role="footer">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#Home" data-icon="home">Home</a></li>
+                </ul>
+            </div>
+            <h1>&copy; Raymond Ye 2016</h1>
+        </div>
+    </div>
+
+    <div data-role="page" id="Recursion and Other Uses of Trees">
+        <div data-role="header">
+            <h1>Recursion and Other Uses of Trees</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+			<div data-role="collapsible">
+                <h1>What is Recursion?</h1>
+                <p>Recursion is a method where the solution to a problem depends on solutions to smaller instances of the same problem(as opposed to iteration).</p>
+                <img src="recursion.gif" alt="This will display an animated GIF" />
+            </div>
+			<div data-role="collapsible">
+                <h1>What is a Minimum Spanning Tree?</h1>
+                <p>A Spanning Tree(ST) of a conected undirected weighted graph G is a subgraph of G that is a tree and connects(spans) all vertices of G. A graph can have multiple STs. A Minimum Spanning Tree(MST) of G is an ST of G that has the smallest total weight among the various STs. A graph G can have multiple MSTs but the MST weight is unique.</p>
+                <img src="mst.gif" alt="This will display an animated GIF" />
+            </div>
+			<div data-role="collapsible">
+                <h1>What is Single Source Shortest Path?</h1>
+                <p>In a Single Source Shotest Path problem, we aim to find the shortest paths from a particular single source vertex to all other vertices in a directed weighted graph(if such paths exist). Different algorithms can be used depending on the nature of the directed weighted graph, i.e. weighted/unweighted, with/without negative weight/cycle.</p>
+                <img src="shortestpath.gif" alt="This will display an animated GIF" />
+            </div>
+            <br>
+
+            <div data-role="footer">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#Home" data-icon="home">Home</a></li>
+                    </ul>
+                </div>
+                <h1>&copy; Raymond Ye 2016</h1>
+            </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="Quiz">
+        <div data-role="header">
+            <h1>Quiz</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>Which of these are data strutures?</p>
+            <p>Forloop</p>
+            <p>Linked lists</p>
+            <p>Arrays</p>
+            <p>None of the above</p>
+            <div data-role="collapsible">
+                <h1>Answer</h1>
+                <p>Linked lists and Arrays!</p>
+            </div>
+            <br>
+
+            <p>What is recursion? </p>
+            <p>Breaking a problem into smaller instances of the same problem to come to a solution</p>
+            <p>The creation of many instances of the same problem</p>
+            <p>A method that solves problems by introducing new ones</p>
+            <p>None of the above</p>
+            <div data-role="collapsible">
+                <h1>Answer</h1>
+                <p>Breaking a problem into smaller instances of the same problem to come to a solution!</p>
+            </div>
+            <br>
+
+            <p>What is a minimum spanning tree?</p>
+            <p>is a subset of the edges of a connected, edge-weighted undirected graph that connects all the vertices together, without any cycles and with the minimum possible total edge weight</p>
+            <p>is a binary tree in which each vertex has only up to 2 children that satisfy BST property. All vertices in the left subtree of a vertext must hold a value smaller than its own and all vertices in the right subtree of a vertext must hold a value larger than its own.</p>
+            <p>is a small tree in your backyard that you water every day</p>
+            <p>All of the above</p>
+            <div data-role="collapsible">
+                <h1>Answer</h1>
+                <p>is a subset of the edges of a connected, edge-weighted undirected graph that connects all the vertices together, without any cycles and with the minimum possible total edge weight</p>
+            </div>
+            <br>
+
+            <p>What is Sorting?</p>
+            <p>a method that decribes the use of data strutures</p>
+            <p>a way to display data</p>
+            <p>an algorithm that puts elements of a list in a certain order</p>
+			<p>None of the above!</p>
+            <div data-role="collapsible">
+                <h1>Answer</h1>
+                <p>an algorithm that puts elements of a list in a certain order!</p>
+            </div>
+            <br>
+			
+			<p>What is Computer Science?</p>
+            <p>the study of the principles and use of computers</p>
+            <p>is a discipline that spans theory and practical uses</p>
+            <p>is practiced by mathematicians, scientists and engineers</p>
+            <p>All of the above</p>
+            <div data-role="collapsible">
+                <h1>Answer</h1>
+                <p>All of the above!</p>
+            </div>
+            <br>
+			
+        </div>
+        <div data-role="footer">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#Home" data-icon="home">Home</a></li>
+                </ul>
+            </div>
+            <h1>&copy; Raymond Ye 2016</h1>
+        </div>
+    </div>
+
+    <div data-role="page" id="About">
+        <div data-role="header">
+            <h1>Computer Science</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>Hi my name is Raymond Ye and I am the creator of this app</p>
+            <p>This is an educational app about computer science principles</p>
+            <p>STEM is the idea of teaching students in four different categories which are : science, technology, engineering and mathematics </p>
+            <br>
+
+            <p>You can learn more in depth about these topics at these sites.</p>
+            <p><a href="https://en.wikipedia.org/wiki/Computer_science">https://en.wikipedia.org/wiki/Computer_science</a></p>
+            <p><a href="http://csunplugged.org/">http://csunplugged.org/</a></p>
+            <p><a href="https://visualgo.net/">https://visualgo.net/</a></p>
+        </div>
+        <div data-role="footer">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#Home" data-icon="home">Home</a></li>
+                </ul>
+            </div>
+            <h1>&copy; Raymond Ye 2016</h1>
+        </div>
+    </div>
+
+</body>
+
+</html>
